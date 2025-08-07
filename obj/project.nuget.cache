@@ -1,8 +1,24 @@
 {
   "version": 2,
-  "dgSpecHash": "cEuZM1CPq44=",
+  "dgSpecHash": "Je8txa3N3u8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\pc\\OneDrive\\Desktop\\Automation\\miniZapier\\miniZapier.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "projectFilePath": "C:\\Users\\rajpu\\Source\\Repos\\Mini-Zapier\\miniZapier.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rajpu\\.nuget\\packages\\inputsimulator\\1.0.4\\inputsimulator.1.0.4.nupkg.sha512",
+    "C:\\Users\\rajpu\\.nuget\\packages\\selenium.webdriver\\4.34.0\\selenium.webdriver.4.34.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'InputSimulator 1.0.4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0-windows7.0'. This package may not be fully compatible with your project.",
+      "projectPath": "C:\\Users\\rajpu\\Source\\Repos\\Mini-Zapier\\miniZapier.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\rajpu\\Source\\Repos\\Mini-Zapier\\miniZapier.csproj",
+      "libraryId": "InputSimulator",
+      "targetGraphs": [
+        "net8.0-windows7.0"
+      ]
+    }
+  ]
 }

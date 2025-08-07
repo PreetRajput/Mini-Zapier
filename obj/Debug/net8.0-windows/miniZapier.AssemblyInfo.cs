@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("miniZapier")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1c7f8594a4f21e596794ac6aa0026bf6b235acf3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4f88a0b96b110a89b975bac981f9c1713bcb1ad5")]
 [assembly: System.Reflection.AssemblyProductAttribute("miniZapier")]
 [assembly: System.Reflection.AssemblyTitleAttribute("miniZapier")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

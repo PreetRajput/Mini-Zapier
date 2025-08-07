@@ -32,6 +32,12 @@ namespace miniZapier
             {
                 Debug.WriteLine(tokens.type);
             }
+            parser obj2 = new parser(allDaTokens);
+            List<node> tasks= obj2.parse();
+            foreach (var item in tasks)
+            {
+                item.execute();
+            }
         }
     }
 }

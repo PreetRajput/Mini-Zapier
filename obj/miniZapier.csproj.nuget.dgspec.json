@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pc\\OneDrive\\Desktop\\Automation\\miniZapier\\miniZapier.csproj": {}
+    "C:\\Users\\rajpu\\Source\\Repos\\Mini-Zapier\\miniZapier.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pc\\OneDrive\\Desktop\\Automation\\miniZapier\\miniZapier.csproj": {
+    "C:\\Users\\rajpu\\Source\\Repos\\Mini-Zapier\\miniZapier.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pc\\OneDrive\\Desktop\\Automation\\miniZapier\\miniZapier.csproj",
+        "projectUniqueName": "C:\\Users\\rajpu\\Source\\Repos\\Mini-Zapier\\miniZapier.csproj",
         "projectName": "miniZapier",
-        "projectPath": "C:\\Users\\pc\\OneDrive\\Desktop\\Automation\\miniZapier\\miniZapier.csproj",
-        "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pc\\OneDrive\\Desktop\\Automation\\miniZapier\\obj\\",
+        "projectPath": "C:\\Users\\rajpu\\Source\\Repos\\Mini-Zapier\\miniZapier.csproj",
+        "packagesPath": "C:\\Users\\rajpu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rajpu\\Source\\Repos\\Mini-Zapier\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rajpu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -45,11 +45,21 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "InputSimulator": {
+              "target": "Package",
+              "version": "[1.0.4, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.34.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -69,7 +79,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

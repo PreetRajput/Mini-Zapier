@@ -6,5 +6,10 @@ using System.Threading.Tasks;
 
 namespace miniZapier
 {
-    internal abstract class node { }
+    internal abstract class node {
+    public virtual void execute()
+        {
+
+        }
+    }
 }
