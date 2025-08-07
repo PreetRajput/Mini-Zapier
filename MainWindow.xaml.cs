@@ -30,7 +30,7 @@ namespace miniZapier
             List<Lexer> allDaTokens =  obj1.tokenExtracter();
             foreach (Lexer tokens in allDaTokens)
             {
-                Debug.WriteLine(tokens);
+                Debug.WriteLine(tokens.type);
             }
         }
     }

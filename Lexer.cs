@@ -18,8 +18,8 @@ namespace miniZapier
             NewLine,
             EndOfFile
         }
-        Type type;
-        String value;
+        public Type type;
+        public String value;
 
         public Lexer(Type type, String value) 
         {
